@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Fill the form</h1>
+    <form action="submit.html">
+        <label>Name</label>
+        <input type="text" name="username" required>
+        <br>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter your email">
+        <br>
+        <label>Password</label>
+        <input type="password" name="password">
+        <br>
+        <label>Contact</label>
+        <input type="number" name="contact" min="10" max="1000">
+        <br>
+        <label>DOB</label>
+        <input type="date" name="dob">
+        <br>
+        <label>Month</label>
+        <input type="month" name="month">
+        <br>
+        <label>Time</label>
+        <input type="time" name="time">
+        <br>
+        <label>Color</label>
+        <input type="color" name="color">
+        <br>
+        <label>Price</label>
+        <input type="range" name="price">
+        <br>
+        <label>Image</label>
+        <input type="file" name="image">
+        <br>
+        <label>Address</label>
+        <textarea name="address"></textarea>
+        <br>
+        <label>State</label>
+        <select name="state">
+            <option>Punjab</option>
+            <option>Haryana</option>
+            <option>Uttrakhand</option>
+            <option>Himachal</option>
+            <option>Assam</option>
+            <option selected disabled>Choose one</option>
+        </select>
+        <br>
+        <label>City</label>
+        <input list="city">
+        <datalist id="city">
+            <option>Jalandhar</option>
+            <option>Jallabad</option>
+            <option>Amritsar</option>
+            <option>Kapurthala</option>
+            <option>Kartarpur</option>
+        </datalist>
+        <br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="M">Male
+        <input type="radio" name="gender" value="F">Female
+        <input type="radio" name="gender" value="O">Others
+        <br>
+        <label>Hobbies</label>
+        <input type="checkbox" name="hobby">Singing
+        <input type="checkbox" name="hobby">Dancing
+        <input type="checkbox" name="hobby">Reading
+        <input type="checkbox" name="hobby">art
+        <br>
+        <input type="checkbox"> I agree to the terms and condition
+        <br>
+        <!-- <input type="submit" value="Login"> -->
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+        <button type="button">Btn</button>
+    </form>
+</body>
+
+</html>
