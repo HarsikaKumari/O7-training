@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+center{
+    padding-top: 70px;
+}
+
+h2{
+    font-size: 30px;
+    padding: 20px;
+}
+
+#head {
+    color: white;
+    background-color: orange;
+    font-size: 50px;
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#nav {
+    background-color: yellow;
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#system {
+    background-color: green;
+    height: 40px;
+    color: white;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#body {
+    height: 300px;
+}
+
+#greybox {
+    background-color: grey;
+    float: left;
+    width: 74.5%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#bluebox {
+    background-color: lightskyblue;
+    color: black;
+    width: 25.25%;
+    height: 300px;
+    float: right;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#copyright {
+    background-color: orange;
+    color: black;
+    height: 40px;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+
+#examImage {
+    float: left;
+    margin: 10px;
+    margin-right: 20px;
+    height: 150px;
+    width: 120px;
+    border: 3px solid black;
+}
+
+#managerImage {
+    height: 15px;
+    width: 120px;
+    border: 2px;
+    border-color: black;
+
+}
+
+#salesImage {
+    margin: 10px;
+    margin-right: 20px;
+    height: 150px;
+    width: 120px;
+    border: 3px solid black;
+
+}
+
+#welcomeText {
+    color: black;
+    padding: 10px;
+}
+
+div {
+    float: left;
+    color: white;
+}
