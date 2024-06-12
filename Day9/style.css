@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#heading {
+    font-weight: 900;
+    font-size: 90px;
+    height: 100px;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(193, 88, 88);
+}
+
+#logo {
+    height: 80px;
+    width: 90px;
+    border-radius: 20%;
+}
+
+#firstImg {
+    height: 800px;
+    width: 100%;
+    background-image: url(/redPorsche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#secondImg {
+    height: 800px;
+    width: 100%;
+    background-image: url(/greyPorche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#thirdImg {
+    height: 800px;
+    width: 100%;
+    background-image: url(/porscheBack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#firstText {
+    height: 240px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color: #79595f;
+    }
+    
+    #secondText {
+        height: 140px;
+        border: 1px solid black;
+        font-size: 20px;
+        text-align: center;
+        background-color: grey;
+}
+    #thirdText {
+        height: 40px;
+        border: 1px solid black;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        background-color: rgb(117, 117, 123);
+}
