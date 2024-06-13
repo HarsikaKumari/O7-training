@@ -23,19 +23,24 @@ h5 {
 img {
     height: 150px;
     width: 130px;
-    border: 3px solid black;
-    margin: 5px;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: 5px 2px 10px black;
 }
 
 .div {
     border-radius: 9px;
     border: 3px dotted white;
     margin: 20px;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0, 0.3);
 }
 
 hr {
     color: white;
+}
+
+p {
+    border-bottom: 2px solid white;
 }
 
 #heading {
@@ -58,6 +63,9 @@ hr {
 
 .images {
     display: flex;
+    justify-content: space-around;
+    /* border-top: 2px solid white; */
+    margin: 10px 0;
 }
 
 #footer {
