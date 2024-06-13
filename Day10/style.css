@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("./images/backgroundavif.avif");
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 0 20px;
+}
+
+h5 {
+    display: inline;
+    padding: 10px;
+    background-color: rgb(32, 31, 31);
+    border-radius: 9px;
+    border: 1px dotted white;
+}
+
+img {
+    height: 150px;
+    width: 130px;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.div {
+    border-radius: 9px;
+    border: 3px dotted white;
+    margin: 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+hr {
+    color: white;
+}
+
+#heading {
+    padding-left: 55px;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#nav {
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#latest {
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.images {
+    display: flex;
+}
+
+#footer {
+    font-size: 25px;
+    font-weight: 200;
+    padding: 10px;
+    text-align: center;
+}
