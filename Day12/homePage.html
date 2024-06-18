@@ -1,48 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div id="nav">
-        <p>Home</p>
-        <p>About</p>
-        <p>Courses</p>
-        <p>Staff</p>
-        <p>Blog</p>
-        <p>Content</p>
-        <input type="search" name="search" id="searchBar" placeholder="Search">
-    </div>
-    <main id="main">
-        <p id="imageText">University, Collage School Education</p>
-        <div class="boxes">
+    <nav class="nav">
+        <ul class="navItems">
+            <li>
+                <a href="#hero" class="navItem">Home</a>
+            </li>
+            <li>
+                <a href="#hero" class="navItem">About</a>
+            </li>
+            <li>
+                <a href="#hero" class="navItem">Courses</a>
+            </li>
+            <li>
+                <a href="#hero" class="navItem">Staff</a>
+            </li>
+            <li>
+                <a href="#hero" class="navItem">Blog</a>
+            </li>
+            <li>
+                <a href="#hero" class="navItem">Content</a>
+            </li>
+        </ul>
+
+        <div class="searchBox">
+            <input type="search" name="search" class="search" id="search" placeholder="Search ">
+            <p>&#128269</p>
+        </div>
+
+    </nav>
+
+    <main class="hero">
+        <div class="heroContainer">
+            <h1 class="heroText">University, Collage School Education</h1>
+            <p class="tagline">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque velit dolore harum voluptatibus natus!
+                Dolores ipsam nam non voluptates explicabo!
+            </p>
+            <div>
+                <button class="button">
+                    <a href="#hero">
+                        Contact Us
+                    </a>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- <div class="boxes">
         <div id="orangeBox" class="box">
             <img src="./images/teacher.jpg" alt="teacher" class="icon">
             <p class="heading">
                 Certified Teachers
             </p>
         </div>
+
         <div id="blackBox" class="box">
             <img src="./images/educationpng.png" alt="education" class="icon">
             <p class="heading">
                 Special Education
             </p>
         </div>
+
         <div id="orangeBox" class="box">
             <img src="./images/books.png" alt="book" class="icon">
             <p class="heading">
                 Books & Library
             </p>
         </div>
+
         <div id="blackBox" class="box">
             <img src="./images/club.png" alt="club" class="icon">
             <p class="heading">
                 Sports Club
             </p>
         </div>
-        </div>
+    </div> -->
 </body>
+
 </html>
