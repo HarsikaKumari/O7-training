@@ -36,14 +36,22 @@ a {
 
 .searchBox {
     background-color: white;
+    border: grey 2px solid;
     border-radius: 20px;
     padding: 5px;
     display: flex;
     justify-content: space-between;
+    background-color: #0d1128;
 }
 
 .search {
     border: none;
+    background-color: #0d1128;
+    color: white;
+}
+
+.search::placeholder {
+    color: white;
 }
 
 .search:focus {
@@ -78,4 +86,35 @@ a {
     color: white;
     border-radius: 20px;
     padding: 15px 20px;
+}
+
+.services {
+    display: flex;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    height: 300px;
+    width: 25%;
+    color: white;
+    padding: 0px 50px;
+}
+
+.black {
+    background-color:#0d1128;
+}
+
+.orange {
+    background-color: #fd5f00;
+}
+
+.serviceImg {
+    color: white;
+    width: 50px;
+    padding-bottom: 20px;
 }
