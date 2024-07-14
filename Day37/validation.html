@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number verification</title>
+    <style>
+        #error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <label for="number">Number:</label>
+    <input type="number" id="contact" onblur = "hit()" > <br>
+    <span id="error"></span>
+    <script>
+        function hit() {
+            var number = document.getElementById("contact").value;
+            console.log(number);
+            var pattern = /^[6-9]{1}[0-9]{9}$/;
+            if (pattern.test(number)) {
+                document.getElementById("error").innerHTML = "";
+            } else {
+                document.getElementById("error").innerHTML = "Invalid number";
+            }
+        }
+    </script>
+</body>
+
+</html>
